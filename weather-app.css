@@ -1,0 +1,22 @@
+body{background-color:rgb(150,180,240);display:flex;align-items:center;flex-direction: column;}
+h1{font-family:serif;font-weight:200px;font-size:35px;margin-top:20px;
+  padding:5px;color:black;margin-left:33%;margin-right:33%;}
+h2{font-size: 30px;font-weight: bold;}
+#date{font-size: 20px;font-weight: bold;}
+.tp1{width:100px;height:75px;}
+#weatherbox{display:flex;flex-direction:column;align-items:center;width:264px;}
+#curtemptext    {display:flex;flex-direction:row;align-content:center;padding-top:30px;}
+#nighttime  {font-family:monospace;font-weight:bold;padding-top:15px;}
+#curtempdegree{disply:flex;flex-direction:column;align-items:center;padding-top:15px;}
+#weathertemp{display:flex;flex-direction:row;justify-content:space-between;width:264px;}
+#nextbox{display:flex;flex-direction:row;justify-content:space-between;width:264px;}
+#next8box{disply:flex;flex-direction:row;align-items:flex-start;padding-top:15px;}
+#next8text{display:flex;flex-direction:row;align-content:flex-start;padding-top:15px;}
+#next8degree{display:flex;flex-direction:row;justify-content:center;padding-top:15px;}
+#next16box{disply:flex;flex-direction:row;align-items:center;padding-top:15px;}
+#next16text{display:flex;flex-direction:row;align-content:flex-end;padding-top:15px;}
+#next16degree{display:flex;flex-direction:row;justify-content:center;padding-top:15px;}
+#tpbox{display:flex;flex-direction:row;justify-content:space-between;width:264px;}
+#units-button{padding-top:0px;disply:flex;flex-direction:row;align-items:center;background-color:silver;}
+.tp2{width:50px;height:50px;padding-top:15px;}
+.tp3{width:50px;height:50px;padding-top:15px;}
