@@ -31,22 +31,5 @@
           document.getElementById("next16degree").textContent=h_temp.hourly_forecast[16].temp.metric
         } )
   }
- let currentrequest = new XMLHttpRequest()
- currentrequest.open("get", "http://api.wunderground.com/api/a07415328ca83d66/conditions/q/ny/queens.json")
- currentrequest.send( )
-
- currentrequest.addEventListener("load",function()
-  {
-     let now_temp = JSON.parse(currentrequest.responseText)
-     document.getElementById("curtempdegree").textContent=now_temp.current_observation.temp_f
-     document.getElementById("date").textContent=now_temp.current_observation.observation_time_rfc822
-  } )
- let hourlyrequest = new XMLHttpRequest()
- hourlyrequest.open("get", "http://api.wunderground.com/api/a07415328ca83d66/hourly/q/ny/queens.json")
- hourlyrequest.send( )
- hourlyrequest.addEventListener("load",function()
-  {
-     let hourly_temp = JSON.parse(hourlyrequest.responseText)
-     document.getElementById("next8degree").textContent=Number(hourly_temp.hourly_forecast[8].temp.english)
-     document.getElementById("next16degree").textContent=Number(hourly_temp.hourly_forecast[16].temp.english)
-  } )
+ 
+click_button()
